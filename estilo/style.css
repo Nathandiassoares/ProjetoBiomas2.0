@@ -1,0 +1,127 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family:'Poppins',sans-serif;
+}
+.corpo-floresta,:root {
+    --cor01:#274001;
+    --cor02:#6E8C03;
+    --cor03:#365902;
+    --cor04:#172601;
+    --cor05:#17260173;
+    --imagenFundo:url(/Imagens/fundo-amazonia.jpg);
+}
+.corpo-deserto,:root {
+    --imagenFundo:url(/Imagens/fundo-deserto.jpg);
+    --cor01:#A55137;
+    --cor02:#D48F68;
+    --cor03:#925B54;
+    --cor04:#120403;
+    --cor05:#1204033d;
+}
+.corpo-oceano,:root {
+    --imagenFundo:url(/Imagens/fundo-oceano.png);
+    --cor01:#1A64CE;
+    --cor02:#72BCF3;
+    --cor03:#3FA1F3;
+    --cor04:#01101b; 
+    --cor05:#032b4c49;
+}
+.corpo-tundra,:root {
+    --imagenFundo:url(/Imagens/fundo-tundra.png);
+    --cor01:#2E2C2B;
+    --cor02:#9A918B;
+    --cor03:#2E2C2B;
+    --cor04:#251D1B;
+    --cor05:#251d1b4d;
+}
+
+.cabeçalho {
+    background-color: var(--cor05);
+}
+
+.menu {
+    padding: 20px;
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+}
+
+body {
+    background: var(--imagenFundo);
+    background-size:cover;
+}
+
+.icone {
+    box-shadow:2px 2px 2px 2px var(--cor04);
+
+}
+
+.titulo {
+    font-size:3em;
+    color: var(--cor04);
+    font-weight: bold;
+}
+
+.btn-nav {
+    padding: 5px;
+    background-color: var(--cor02);
+    font-size: 2em;
+    color: var(--de02);
+    text-decoration:none;
+    border-radius: 10px;
+    box-shadow: 2px 2px var(--cor03);
+    transition: 0.7s;
+}
+
+.btn-nav:hover {
+    background-color: white;
+}
+
+main {
+    background-color:white;
+    width:400px;
+    margin:20px auto;
+    box-shadow:3px 3px 4px var(--cor04);
+    border-radius:0px 10px 10px 0px;
+}
+
+.subtitulo {
+    color: var(--cor04);
+    font-size: 2em;
+    text-align: center;
+    padding: 20px;
+}
+
+.texto {
+    padding:20px;
+    line-height:24px;
+    letter-spacing:1px;
+    text-align:justify;
+}
+.container-imagens {
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.imagens {
+    box-shadow: 3px 3px 1px var(--cor04) ;
+    margin:20px 0px;
+    height:240px;
+    width:300px;
+}
+
+.roda-pe {
+    padding: 40px;
+    color: white;
+    background-color: var(--cor04);
+    text-align: center;
+}
+
+.link-esterno-github {
+    color: white;
+    text-decoration: none;
+}
+
