@@ -4,7 +4,7 @@
 * {
     font-family:'Poppins',sans-serif;
 }
-.corpo-floresta,:root {
+.paleta-cores--floresta,:root {
     --cor01:#274001;
     --cor02:#6E8C03;
     --cor03:#365902;
@@ -12,7 +12,7 @@
     --cor05:#17260173;
     --imagenFundo:url(/Imagens/fundo-amazonia.jpg);
 }
-.corpo-deserto,:root {
+.paleta-cores--deserto ,:root {
     --imagenFundo:url(/Imagens/fundo-deserto.jpg);
     --cor01:#A55137;
     --cor02:#D48F68;
@@ -20,7 +20,7 @@
     --cor04:#120403;
     --cor05:#1204033d;
 }
-.corpo-oceano,:root {
+.paleta-cores--oceano,:root {
     --imagenFundo:url(/Imagens/fundo-oceano.png);
     --cor01:#1A64CE;
     --cor02:#72BCF3;
@@ -28,13 +28,18 @@
     --cor04:#01101b; 
     --cor05:#032b4c49;
 }
-.corpo-tundra,:root {
+.paleta-cores--tundra,:root {
     --imagenFundo:url(/Imagens/fundo-tundra.png);
     --cor01:#2E2C2B;
     --cor02:#9A918B;
     --cor03:#2E2C2B;
     --cor04:#251D1B;
     --cor05:#251d1b4d;
+}
+
+body {
+    background: var(--imagenFundo);
+    background-size:cover;
 }
 
 .cabeçalho {
@@ -48,10 +53,6 @@
     justify-content:space-around;
 }
 
-body {
-    background: var(--imagenFundo);
-    background-size:cover;
-}
 
 .icone {
     box-shadow:2px 2px 2px 2px var(--cor04);
