@@ -6,21 +6,19 @@
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
 }
-.cor1, :root {
+.oceano, :root {
     --cor:#218B97;
 }
-.cor2, :root {
+.floresta, :root {
     --cor:#5b8a31;
 }
-.cor3, :root {
+.deserto, :root {
     --cor:#a8512c;
 }
-.cor4, :root {
+.tundra, :root {
     --cor:#b4aeaa;
 }
-.cor5, :root {
-    --cor:#02741e;
-}
+
 
 body {
     display:flex;
