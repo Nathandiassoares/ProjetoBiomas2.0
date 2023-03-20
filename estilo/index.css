@@ -1,33 +1,44 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
 }
-.oceano, :root {
-    --cor:#218B97;
+
+.oceano,
+:root {
+    --cor: #218B97;
 }
-.floresta, :root {
-    --cor:#5b8a31;
+
+.floresta,
+:root {
+    --cor: #5b8a31;
 }
-.deserto, :root {
-    --cor:#a8512c;
+
+.deserto,
+:root {
+    --cor: #a8512c;
 }
-.tundra, :root {
-    --cor:#b4aeaa;
+
+.tundra,
+:root {
+    --cor: #b4aeaa;
 }
 
 
 body {
-    display:flex;
-    justify-content: center;align-items: center;
-    background-color:#1d1d1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1d1d1f;
     flex-direction: column;
-    
-    gap:60px;
+
+    gap: 60px;
 }
+
 header {
     height: 200px;
     width: 100%;
@@ -37,6 +48,7 @@ header {
     justify-content: center;
     box-shadow: 1px 1px 2px white;
 }
+
 h1 {
     font-size: 3em;
     letter-spacing: 0.1em;
@@ -44,6 +56,7 @@ h1 {
     padding: 10px;
     transition: 2s;
 }
+
 h1:hover {
     background-color: white;
     color: #27282c;
@@ -51,17 +64,18 @@ h1:hover {
 }
 
 main {
-    display:flex;
-    flex-direction:row;
-    align-items:center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     flex-wrap: wrap;
     align-content: center;
     justify-content: space-around;
     padding-bottom: 40px;
-    
-   
+
+
 
 }
+
 div {
     margin: 10px;
     padding: 15px;
@@ -80,12 +94,13 @@ img {
     padding: 10px;
     box-shadow: 0px 0px 20px var(--cor);
 }
+
 #buttun {
     position: relative;
-    background-color:rgb(26, 25, 25);
-    color:white;
+    background-color: rgb(26, 25, 25);
+    color: white;
     text-decoration: none;
-    text-transform:uppercase;
+    text-transform: uppercase;
     font-size: 1.5em;
     letter-spacing: 0.1em;
     padding: 10px 30px;
@@ -98,12 +113,14 @@ img {
     color: var(--cor);
     box-shadow: 0px 0px 35px var(--cor);
 }
+
 #buttun::before {
     content: '';
     position: absolute;
-    inset:1px;
+    inset: 1px;
     background-color: #1a1a1b;
 }
+
 #buttun span {
     position: relative;
     z-index: 1;
@@ -118,12 +135,12 @@ img {
 #buttun i::before {
     content: '';
     position: absolute;
-    top:-3.5px;
+    top: -3.5px;
     left: 80%;
     width: 10px;
     height: 5px;
     border: 2px solid var(--cor);
-    background-color:#27282c;
+    background-color: #27282c;
     transform: translate(-50%);
     transition: 0.5s;
 }
@@ -146,7 +163,7 @@ img {
 }
 
 #buttun:hover i::after {
-    width:20px;
+    width: 20px;
     left: 80%;
 }
 
@@ -164,7 +181,7 @@ footer {
     font-weight: bolder;
     transition: 0.5s;
     margin: 20px;
-    
+
 }
 
 #linkgithub:hover {
