@@ -17,5 +17,3 @@ O projeto foi criado para testar e treinar CSS e HTML usando conceitos simples, 
 - Nomenclatura da paleta de cores
 
 Entre outras possibilidades, a estrutura do projeto pode ser utilizada como um blog, onde cada página representa uma postagem sobre um assunto diferente e a tela inicial moderna pode servir como um hub, linkando portfólios. 
-
-Para visualizar o projeto, basta acessar o link: (insira o link do projeto aqui)
