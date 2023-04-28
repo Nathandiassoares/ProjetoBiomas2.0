@@ -1,4 +1,4 @@
-# Biomas 2.0
+# Biomas 2.0 <img src="https://img.icons8.com/?size=1x&id=EtQVTDSgcIlj&format=png" alt="Floresta" width="30" height="30">
 
 O projeto foi criado para testar e treinar CSS e HTML usando conceitos simples, mas úteis para iniciantes. O "2.0" indica que, depois que terminei o primeiro projeto, aprendi novos métodos e quis aplicá-los. Eu poderia ter refeito o primeiro projeto, mas quis deixá-lo para poder fazer uma comparação.
 
